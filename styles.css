@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-Light.otf);
+    font-weight: lighter;
+  }
+  
+@font-face {
+    font-family: Gilroy;
+    src: url(Gilroy-ExtraBold.otf);
+    font-weight: bold;
+  }
+  
+
+html {
+    min-height: 100%;
+
+}
+body {
+    height: 100%;
+    margin: 20px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(244,223,232);
+    background: linear-gradient(180deg, rgba(244,223,232,1) 0%, rgba(175,195,218,1) 100%);
+    font-family: Gilroy;
+}
+
+.header  {
+    background: rgb(0,0,130);
+    background: linear-gradient(135deg, rgba(0,0,130,1) 0%, rgba(14,79,159,1) 44%, rgba(25,143,173,1) 100%);
+    border-radius: 30px 30px 0 0;
+   /* -webkit-clip-path: url(#svgPath);
+    clip-path: url(#svgPath);*/
+}
+
+.header-text-column {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+    width: 70%;
+    margin-left: 50px;
+    flex: 6;
+}
+
+.header-sub-text {
+    font-family: Gilroy;
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+}
+
+
+.card {
+    transition: 0.3s;
+    border-radius: 30px 30px 0 0;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+.svg-clipped {
+
+}
+
+
+
+.navbar {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+.navbar-menu {
+    align-self: flex-end;
+    flex-flow: row;
+    flex: 2;
+    flex-direction: row;
+    display: flex;
+    height: 38px;
+    align-items: center;
+    font-family: Gilroy;
+}
+
+.navbar-menu-item {
+    color: white;
+    flex: 2;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.navbar-logo {
+    color: white;
+    align-self: flex-start;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    flex: 1;
+}
+
+.button {
+    background-color: #df4c76;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    width: 80px;
+    box-shadow: 0 8px 16px 0 #523b8b;
+  }
+
+.header-button-content {
+    margin-top: 30px;
+}
+
+.header-button-lg {
+    background-color: #df4c76;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    width: 130px;
+    box-shadow: 0 8px 16px 0 #523b8b;
+    display: flex;
+  }
+
+.header-button-lg-icon {
+    margin-left: 10px;
+}
+
+.header-columns {
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-button-social-column {
+    font-size: 25px;
+    align-self: flex-end;
+    color: white;
+    flex: 2;
+}
+
+svg { width:300% }
+
+.card-content {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.card-article {
+    width: 50%;
+    margin: 30px;
+}
+
+.card-article-title {
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(0,0,130,1);
+}
+
+.footer {
+    background: rgb(0,0,130);
+    background: linear-gradient(135deg, rgba(0,0,130,1) 0%, rgba(14,79,159,1) 44%, rgba(25,143,173,1) 100%);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    padding: 30px;
+    display: flex;
+}
+
+.footer-content-logo {
+    color: white;
+    align-self: flex-start;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    flex: 1;
+}
+
+.footer-content-contacts {
+    color: white;
+    font-size: 12px;
+    flex: 6;
+}
+
+.footer-content-social {
+    flex: 2;
+    align-self: center;
+    font-size: 25px;
+    color: #6886b3;
+}
+
+.rounded-img {
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+}
+
+.animated-link {
+}
+
+.animated-link:hover {
+    color: #df4c76;
+}
